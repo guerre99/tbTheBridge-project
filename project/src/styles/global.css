@@ -1,0 +1,40 @@
+header section {
+  display: flex;
+}
+
+.header-section {
+  border: solid 1px black;
+}
+
+.text-header {
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header section div img {
+  width: 103%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgb(39, 0, 60);
+  text-decoration-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar img {
+  width: 10%;
+}
+
+.navbar * {
+  padding: 1rem;
+
+  color: white;
+}
